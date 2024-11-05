@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 10px 20px;
+  gap: 20px;
+  flex-direction: column;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.items img {
+  width: 23rem;
+}
+
+.description {
+  font-size: 20px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
